@@ -1,0 +1,6 @@
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false  # 自身不注册到其他 Eureka
+    fetch-registry: false        # 不拉取注册表
